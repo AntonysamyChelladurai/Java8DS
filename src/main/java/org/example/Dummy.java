@@ -27,7 +27,23 @@ public class Dummy {
     public void sumFirstDigit2(){
 
        int[] arr= {23,45,22,67,52,222,2};
-       
+        int no=9834;
+        /*double value = Math.log10(9834);
+        System.out.println("Value :: "+value);
+        System.out.println("Value :: "+ Math.pow(10,value));
+        System.out.println("Value :: "+ (int)Math.floor(Math.pow(10,value)));
+        System.out.println("Value :: "+(int) no/(int)Math.floor(Math.pow(10,value)));*/
+
+        int digits = (int)(Math.log10(no));
+
+        // Find first digit
+        no = (int)(no / (int)(Math.pow(10, digits)));
+
+        // Return first digit
+        System.out.println("First digit :: "+no);
+        //return n;
+
+        System.out.println(Math.min(Double.MIN_VALUE, 0.0d));
 
     }
 
