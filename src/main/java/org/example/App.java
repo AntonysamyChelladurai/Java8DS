@@ -1,12 +1,13 @@
 package org.example;
 
 import java.util.*;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.ForkJoinPool;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/**
- * Hello world!
- */
 public class App {
     int num = 10;
 
@@ -26,21 +27,42 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-       /* App a= new App();
+        App a = new App();
         System.out.println(a.num);
-        a.display();*/
+        a.display();
 
-         MapQuestions mapQ=new MapQuestions();
-         mapQ.mapquestions();
-         mapQ.shortbyKeyValue();
+       /* Boeing bo=new Boeing();
+        //bo.test1();
+        bo.test2();*/
+        //Capgemini cap=new Capgemini();
+        //cap.test1();
+       // Zenzar zen=new Zenzar();
+       // zen.task();
+
+        //MapQuestions mapQ=new MapQuestions();
+        // mapQ.mapquestions();
+        // mapQ.shortbyKeyValue();
+        //Presist p = new Presist();
+        //p.find2ndlarge();
+        //  p.merge2list();
+        //p.findnValue();
         // Optimum opt=new Optimum();
         // Coforge co=new Coforge();
-         Dummy du=new Dummy();
-       // D4You d4u = new D4You();
-        //d4u.method1();
-        // du.method1();
-        du.reverseString();
+        Dummy du = new Dummy();
+        //du.mulitpleofno();
+        //du.test();
+        du.getEmployee();
+        //du.method1();
+        // du.sumFirstDigit2();
+        //du.removeDuplicate();
+        //du.getEmployee();
+        //du.mulitpleofno();
+        //du.reverseString();
         // du.method2();
+        // D4You d4u = new D4You();
+        //d4u.method1();
+
+        //
         // co.method1();
         //opt.method1();
         //basicstream();
@@ -49,6 +71,14 @@ public class App {
         // priorityQueue();
         // circulerQueue();
         // numstartwith1(); // Filter numbers starting with 1
+
+       // AccionLab acc= new AccionLab();
+       // acc.task();
+
+    }
+
+
+    public void capgemini(){
 
     }
 
